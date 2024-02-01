@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import ManiLayout from "../LayOut/ManiLayout";
-import Home from "../Pages/Home/Home";
+import Home from "../Pages/Home/Home/Home";
+
 
 const router = createBrowserRouter([
    {
