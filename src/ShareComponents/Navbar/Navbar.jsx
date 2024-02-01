@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
-
   const navLinks = [
     {
       idx: 0,
@@ -107,15 +106,19 @@ const Navbar = () => {
           >
             {navLinks.map((navLink) => (
               <li className="bg-inherit" key={navLink.idx}>
-                <NavLink to={navLink.path}>{navLink.name}</NavLink>
+                <NavLink className="text-base" to={navLink.path}>
+                  {navLink.name}
+                </NavLink>
               </li>
             ))}
             <li>
-              <Link>Parent</Link>
+              <Link className="text-base">{subPagesLinks.name}:</Link>
               <ul className="p-2">
                 {subPagesLinks.children.map((pageLink) => (
                   <li key={pageLink.idx}>
-                    <NavLink to={pageLink.path}>{pageLink.name}</NavLink>
+                    <NavLink className="text-base" to={pageLink.path}>
+                      {pageLink.name}
+                    </NavLink>
                   </li>
                 ))}
               </ul>
@@ -131,11 +134,11 @@ const Navbar = () => {
       <div className="navbar-center hidden xl:flex">
         <ul className="menu menu-horizontal px-1 text-white bg-inherit">
           {navLinks.map((navLink) => (
-            <li className="bg-inherit" key={navLink.idx}>
+            <li className="bg-inherit text-base" key={navLink.idx}>
               <NavLink to={navLink.path}>{navLink.name}</NavLink>
             </li>
           ))}
-          <li className="relative z-[5000]">
+          <li className="relative z-[5000] text-base">
             <details>
               <summary>{subPagesLinks.name}</summary>
               <ul className="p-2 w-60 absolute right-0">
