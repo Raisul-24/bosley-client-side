@@ -8,6 +8,7 @@ const Banner = () => {
 
   const carouselItems = [
     {
+      person: "Edgar S",
       image1:
         "https://www.bosley.com/wp-content/uploads/2021/12/header-image01-nick.jpg",
       image2:
@@ -17,6 +18,7 @@ const Banner = () => {
       next: 2,
     },
     {
+      person: "Troy P.",
       image1:
         "https://www.bosley.com/wp-content/uploads/2021/10/header-image02-edgar.jpg",
       image2:
@@ -26,6 +28,7 @@ const Banner = () => {
       next: 3,
     },
     {
+      person: "Nick H.",
       image1:
         "https://www.bosley.com/wp-content/uploads/2021/10/header-image03-troy.jpg",
       image2:
@@ -35,6 +38,8 @@ const Banner = () => {
       next: 4,
     },
     {
+
+      person: 'Kelly S.',
       image1:
         "https://www.bosley.com/wp-content/uploads/2021/10/header-image04-kelly.jpg",
       image2:
@@ -48,7 +53,7 @@ const Banner = () => {
   const total = carouselItems.length;
 
   return (
-    <section className="bg-[#112341] px-5 md:px-8 flex items-center py-10 md:py-24 xl:py-0 xl:min-h-screen w-full">
+    <section className="bg-[#112341] px-5 md:px-8 flex items-center pt-10 md:py-24 xl:py-28 w-full">
       <div className="flex flex-col gap-12 lg:gap-0 lg:flex-row lg:items-center md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl 2xl:max-w-[1350px] mx-auto">
         <div className="lg:basis-[40%] xl:basis-[45%] text-white flex flex-col gap-8 items-start md:px-0">
           <h1 className="text-5xl lg:text-[60px] xl:text-[85px]  font-semibold line lg:text-nowrap">
@@ -73,7 +78,7 @@ const Banner = () => {
             ))}
           </div>
 
-          <ul className="absolute md:right-[16%] xl:right-[14%] xl:bottom-[5%] flex justify-end gap-5">
+          <ul className="absolute bottom-0 right-12 md:right-[16%] md:-bottom-[7%] xl:right-[14%] xl:bottom-[5%] flex justify-end gap-5">
             {[...Array(total).keys()].map((index) => (
               <li className="" key={index}>
                 <button

@@ -126,7 +126,7 @@ const Navbar = () => {
           </ul>
         </div>
         <img
-          className="w-48"
+          className="w-36"
           src="https://www.bosley.com/wp-content/uploads/2024/01/bosley50-desktop-nav.svg"
           alt=""
         />
