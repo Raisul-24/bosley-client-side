@@ -14,7 +14,7 @@ import { FaRegCreditCard } from "react-icons/fa";
 import { MdOutlineWifiCalling } from "react-icons/md";
 const Footer = () => {
    return (
-      <div className="">
+      <div>
          <footer className="footer p-10 bg-white text-base-content">
             <nav className="flex flex-col justify-center items-center">
                <img className="w-72 h-16"
@@ -69,10 +69,10 @@ const Footer = () => {
 
             <nav>
                <h6 className="footer-title">careers</h6>
-               <img className="w-48 h-24 border-t-2 border-gray-100" src="https://i.ibb.co/C65qFHj/Screenshot-2024-02-01-at-10-48-02-AM.png"></img>
+               <img className="w-48 lg:w-60 h-24 border-t-2 border-gray-100" src="https://i.ibb.co/C65qFHj/Screenshot-2024-02-01-at-10-48-02-AM.png"></img>
             </nav>
          </footer>
-         <footer className="footer px-10 py-4 border-t bg-orange-700 text-white border-base-300">
+         <footer className="footer px-10 py-4 border-t bg-orange-800 text-white border-base-300">
             <aside className="items-center grid-flow-row">
                <p>© Copyright 2023 - The University of Texas Health Science Center at Houston (UTHealth Houston)</p>
                <nav>
