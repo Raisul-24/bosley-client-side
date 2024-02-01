@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CarouselItem from "./CarouselItem/CarouselItem";
 
 const Banner = () => {

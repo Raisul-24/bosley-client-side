@@ -1,4 +1,3 @@
-import React from "react";
 
 const CarouselItem = ({ carouselItem, setSelected }) => {
   const { id, image1, image2, prev, next, person } = carouselItem;
