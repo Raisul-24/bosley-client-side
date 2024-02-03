@@ -53,8 +53,8 @@ const Banner = () => {
   const total = carouselItems.length;
 
   return (
-    <section className="bg-[#112341] px-5 md:px-8 flex items-center pt-10 md:py-24 xl:py-28 w-full">
-      <div className="flex flex-col gap-12 lg:gap-0 lg:flex-row lg:items-center md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl 2xl:max-w-[1350px] mx-auto">
+    <section className="bg-[#112341] flex items-center pt-10 md:py-24 xl:py-28 w-full">
+      <div className="flex flex-col gap-12 lg:gap-0 lg:flex-row lg:items-center md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl 2xl:max-w-[1350px] mx-auto px-5 md:px-8">
         <div className="lg:basis-[40%] xl:basis-[45%] text-white flex flex-col gap-8 items-start md:px-0">
           <h1 className="text-5xl lg:text-[60px] xl:text-[85px]  font-semibold line lg:text-nowrap">
             America’s #1 <br /> Hair Restoration <br /> Experts
