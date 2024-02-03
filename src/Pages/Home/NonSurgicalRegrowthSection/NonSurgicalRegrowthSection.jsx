@@ -7,11 +7,11 @@ const NonSurgicalRegrowthSection = () => {
           src="https://www.bosley.com/wp-content/uploads/2021/10/tar_2347.jpg"
           alt="Movie"
         />
-        <div className="absolute left-4 bottom-9 text-white w-[130px] py-3 px-4 rounded-lg">
+        <div className="absolute left-4 bottom-9 text-white w-[150px] py-3 px-4 rounded-lg">
           <div className="absolute top-0 left-0 h-full w-full bg-black opacity-70 z-0 rounded-lg"></div>
-          <h6 className="relative z-10 text-xs font-semibold">Joshua A.</h6>
+          <h6 className="relative z-10 text-xs font-semibold">Jess W.</h6>
           <small className="relative z-10 leading-none block text-[9px]">
-            Actual Bosley Patient Individual results mary vary.
+            Actual Low-Level Laser Therapy Patient. Individual results may vary.
           </small>
         </div>
       </div>
