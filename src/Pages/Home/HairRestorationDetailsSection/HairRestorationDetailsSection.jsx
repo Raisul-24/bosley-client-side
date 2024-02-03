@@ -30,13 +30,13 @@ const HairRestorationDetailsSection = () => {
 
   return (
     <div className="bg-[#112341]">
-      <div className="relative flex flex-col lg:flex-row md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-[1350px] mx-auto px-5 md:px-16 py-12 md:pb-0 lg:px-28 lg:py-24 my-28">
+      <div className="relative flex flex-col lg:flex-row md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-[1350px] mx-auto px-5 pb-0 md:px-16 py-12 md:pb-0 lg:px-28 lg:py-24 my-28">
         <div className="grid md:grid-cols-2 gap-6 lg:basis-[80%] xl:basis-[70%] relative z-[60]">
           {hairRestorationData.map((data) => (
             <HairRestorationCard key={data.id} hairRestorationCardData={data} />
           ))}
         </div>
-        <div className="lg:absolute z-10 -right-[20%] bottom-0 w-full lg:w-[80%]">
+        <div className="lg:absolute z-10 right-0 bottom-0 w-full lg:w-[80%] xl:w-[65%]">
           <img
             src="https://www.bosley.com/wp-content/uploads/2023/12/Bosley-Patient-Ryan-B-Transparent.png"
             alt=""
