@@ -9,10 +9,10 @@ const CarouselItem = ({ carouselItem, setSelected }) => {
     >
       <div>
         <img className="w-full md:w-[80%] lg:w-[75%] 2xl:w-auto" src={image1} />
-        <div className="absolute left-[2%] bottom-[48%] md:bottom-[25%] 2xl:bottom-[20%] text-white w-[70%] md:w-[30%] lg:w-[30%] xl:w-[33%] 2xl:w-[30%] py-3 px-4 rounded-lg">
+        <div className="absolute left-[2%] bottom-[48%] md:bottom-[25%] 2xl:bottom-[20%] text-white w-[130px] py-3 px-4 rounded-lg">
           <div className="absolute top-0 left-0 h-full w-full bg-black opacity-70 z-0 rounded-lg"></div>
-          <h6 className="relative z-10 text-sm font-semibold">{person}</h6>
-          <small className="relative z-10 leading-none block">Actual Bosley Patient Individual results mary vary.</small>
+          <h6 className="relative z-10 text-xs font-semibold">{person}</h6>
+          <small className="relative z-10 leading-none block text-[9px]">Actual Bosley Patient Individual results mary vary.</small>
         </div>
       </div>
       <div className="absolute left-[2%] top-[55%] md:left-[45%] md:bottom-0 md:top-auto lg:md:left-[35%] lg:bottom-[2%] xl:left-[45%] xl:bottom-[10%]">
