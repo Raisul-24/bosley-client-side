@@ -2,7 +2,7 @@ import { Input } from "@material-tailwind/react";
 
 const LearnMore = () => {
    return (
-      <div className="w-full mx-auto my-4 flex items-center flex-col-reverse justify-center lg:justify-between lg:flex-row ">
+      <div className="w-full mx-auto my-4 flex items-center flex-col-reverse justify-center lg:justify-between lg:flex-row md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl 2xl:max-w-[1350px]">
          <div className="mt-6 lg:w-1/2 p-2 md:p-3 pl-2 lg:pl-16">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-blue-950 mb-5">Ready to Learn More?</h2>
             <h3 className="text-sm lg:text-lg mb-5">Get a free information kit and $250 Gift Card today.</h3>
