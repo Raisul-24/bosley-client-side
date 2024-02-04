@@ -1,5 +1,4 @@
 
-import { Slider } from "@material-tailwind/react";
 import Banner from "../Banner/Banner";
 import HairRestorationDetailsSection from "../HairRestorationDetailsSection/HairRestorationDetailsSection";
 import HairTransplantSolution from "../HairTransplantSolution/HairTransplantSolution";
@@ -7,6 +6,7 @@ import LearnMore from "../LearnMore/LearnMore";
 import NonSurgicalRegrowthSection from "../NonSurgicalRegrowthSection/NonSurgicalRegrowthSection";
 import SeenIn from "../SeenIn/SeenIn";
 import SliderBanner from "../SliderBanner/SliderBanner";
+import SliderBannerTwo from "../SliderBannerTwo";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <HairTransplantSolution />
       <NonSurgicalRegrowthSection />
       <HairRestorationDetailsSection />
-      <SliderBanner></SliderBanner>
+      <SliderBannerTwo></SliderBannerTwo>
       <SeenIn></SeenIn>
       <LearnMore></LearnMore>
     </>
