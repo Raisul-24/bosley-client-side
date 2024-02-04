@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <>
       <Banner />
+      <SliderBanner />
       <HairTransplantSolution />
       <NonSurgicalRegrowthSection />
       <HairRestorationDetailsSection />

@@ -78,7 +78,7 @@ const Banner = () => {
             ))}
           </div>
 
-          <ul className="absolute bottom-0 right-12 md:right-[16%] md:-bottom-[7%] xl:right-[14%] xl:bottom-[5%] flex justify-end gap-5">
+          <ul className="absolute bottom-5 right-12 md:right-[16%] md:-bottom-[7%] xl:right-[14%] xl:bottom-[5%] flex justify-end gap-5">
             {[...Array(total).keys()].map((index) => (
               <li className="" key={index}>
                 <button
