@@ -5,7 +5,7 @@ const CarouselItem = ({ carouselItem, setSelected }) => {
   return (
     <div
       id={`slide${id}`}
-      className="carousel-item relative w-full pb-52 md:pb-28 overflow-hidden"
+      className="carousel-item relative w-full pt-5 pb-52 md:pb-28 overflow-hidden"
     >
       <div>
         <img className="w-full md:w-[80%] lg:w-[75%] 2xl:w-auto" src={image1} />
